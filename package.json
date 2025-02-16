@@ -1,0 +1,29 @@
+{
+  "name": "dp-uploader-app",
+  "version": "1.0.0",
+  "author": "darelisme",
+  "module": "true",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.21.0",
+    "@tauri-apps/cli": "^2.2.7",
+    "nuxt": "^3.15.4",
+    "nuxt-electron": "^0.7.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "electron": "^34.2.0",
+    "electron-builder": "^25.1.8",
+    "vite-plugin-electron": "^0.29.0",
+    "vite-plugin-electron-renderer": "^0.14.6"
+  }
+}
